@@ -1,0 +1,10 @@
+-- Databricks notebook source
+-- MAGIC %sql
+-- MAGIC
+-- MAGIC CREATE OR REPLACE TEMPORARY VIEW hola_mundo AS
+-- MAGIC
+-- MAGIC SELECT 'Hola, mundo' AS mensaje;
+-- MAGIC
+-- MAGIC  
+-- MAGIC
+-- MAGIC SELECT mensaje FROM hola_mundo;
